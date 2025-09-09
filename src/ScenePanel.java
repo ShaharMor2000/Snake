@@ -9,7 +9,7 @@ import java.io.IOException;
 public class ScenePanel extends JPanel {
     // Board (Grid)
     public static final int TILE = 20;
-    public static final int COLS = 30;
+    public static final int COLS = 33;
     public static final int ROWS = 30;
 
     // Runtime state

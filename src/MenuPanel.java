@@ -45,7 +45,7 @@ public class MenuPanel extends JPanel {
                         "Game Instructions — Step by Step:\n" +
                         "1) Select the number of players.\n" +
                         "2) Choose a difficulty level.\n" +
-                        "3) Pick a color for each player.\n" +
+                        "3) Click the color button to choose a color for each player.\n" +
                         "4) Press Start to begin.\n\n" +
                         "Objective: Eat food, grow longer, and avoid collisions.\n" +
                         "Each player competes to defeat the others — the last one alive or with the highest score wins.\n" +
@@ -92,7 +92,7 @@ public class MenuPanel extends JPanel {
         // Color picker buttons for up to 4 players
         for (int i = 0; i < colorBtns.length; i++) {
             int idx = i;
-            JButton b = new JButton("Player " + (i + 1) + " Color");
+            JButton b = new JButton("Click to choose color Player " + (i + 1) );
             b.setBackground(playerColors[i]);
             b.setForeground(contrast(playerColors[i]));
             b.setFont(controlsFont);
@@ -131,7 +131,7 @@ public class MenuPanel extends JPanel {
         // Controls layout (with centered labels)
         controls.add(title);
 
-        JLabel playersLbl = new JLabel("Players:", SwingConstants.CENTER);
+        JLabel playersLbl = new JLabel("Numbers of Players:", SwingConstants.CENTER);
         playersLbl.setFont(controlsFont);
         controls.add(playersLbl);
         controls.add(playersBox);

@@ -2,8 +2,8 @@ import javax.swing.*;
 import java.awt.*; // For BorderLayout, Dimension
 
 public class Main {
-    public static final int WINDOW_WIDTH = 1000;
-    public static final int WINDOW_HEIGHT = 700;
+    public static final int WINDOW_WIDTH = 900;
+    public static final int WINDOW_HEIGHT = 640;
 
     public static void main(String[] args) {
         JFrame window = new JFrame("Snake (Class Style)");
